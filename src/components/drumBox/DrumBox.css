@@ -1,0 +1,19 @@
+.drum-box {
+	width: 100px;
+	height: 100px;
+	background-color: blueviolet;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 2.5rem;
+}
+
+.drum-box:hover {
+	opacity: 0.9;
+}
+
+.drum-box:active {
+	transform: translateY(5%);
+	transition: transform 200ms ease-in-out;
+}
